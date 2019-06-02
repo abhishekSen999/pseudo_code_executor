@@ -8,7 +8,7 @@ there is no way to determine logical errors that might cause infinite looping bu
 ->non-converging loop condition
 can be dealt with thus reducing long debugging hours
 
-##Pseudo_code_executor
+## Pseudo_code_executor
 reads through the code understanding loop and non loop statements analysing them as to where such problems can occur and whether it has occured or not pin pointing the position where correction needs to be made and suggesting the correction
 
 ## Contributing
