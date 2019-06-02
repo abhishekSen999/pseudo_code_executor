@@ -1,13 +1,12 @@
 # pseudo_code_executor
 One of the problems that is faced in real time code checking on server is accidental infinite-loops or the deadlier infinite recursion.
-there is no way to determine logical errors that might cause infinite looping but accidents like 
-
-->missing increment statement in loops(for/while)
-->forgetting to provide base condition in recursion
-->non-converging base condition
-->loop without condition 
-->non-converging loop condition
-can be dealt with thus reducing long debugging hours
+there is no way to determine logical errors that might cause infinite looping but accidents like <br>
+->missing increment statement in loops(for/while)<br>
+->forgetting to provide base condition in recursion<br>
+->non-converging base condition<br>
+->loop without condition <br>
+->non-converging loop condition<br>
+can be dealt with thus reducing long debugging hours<br>
 
 ## Pseudo_code_executor
 reads through the code understanding loop and non loop statements analysing them as to where such problems can occur and whether it has occured or not pin pointing the position where correction needs to be made and suggesting the correction
