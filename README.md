@@ -1,6 +1,7 @@
 # pseudo_code_executor
 One of the problems that is faced in real time code checking on server is accidental infinite-loops or the deadlier infinite recursion.
 there is no way to determine logical errors that might cause infinite looping but accidents like 
+
 ->missing increment statement in loops(for/while)
 ->forgetting to provide base condition in recursion
 ->non-converging base condition
