@@ -1,7 +1,8 @@
 import java.io.IOException;
 
 public class ReadFile {
-    ReadFile() throws IOException
+    String code[];
+    ReadFile(String fileName) throws IOException
     {
 
     }
