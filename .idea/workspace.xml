@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f02b0c1d-ff04-4f54-8b1c-1f9c873f99ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TestBufferedReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReadFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pseudo_code_executor/Main.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TestBufferedReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
+            <state relative-caret-position="510">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -152,7 +150,7 @@
       <workItem from="1559386523865" duration="1341000" />
       <workItem from="1559481666330" duration="2302000" />
       <workItem from="1559578194629" duration="601000" />
-      <workItem from="1559649828154" duration="9003000" />
+      <workItem from="1559649828154" duration="9135000" />
     </task>
     <task id="LOCAL-00001" summary="planning">
       <created>1559653378978</created>
@@ -161,15 +159,21 @@
       <option name="project" value="LOCAL" />
       <updated>1559653378978</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="setting file reading paradigm">
+      <created>1559688182154</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559688182154</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13247000" />
+    <option name="totallyTimeSpent" value="13379000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1045" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1248666" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -240,7 +244,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="planning" />
-    <option name="LAST_COMMIT_MESSAGE" value="planning" />
+    <MESSAGE value="setting file reading paradigm" />
+    <option name="LAST_COMMIT_MESSAGE" value="setting file reading paradigm" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -267,8 +272,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestBufferedReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
+        <state relative-caret-position="510">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>

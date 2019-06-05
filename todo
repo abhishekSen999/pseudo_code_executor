@@ -1,0 +1,4 @@
+NUMERIC:
+	*!= condition in loop 
+	*> or < condition in loop
+	* == in loop condition
