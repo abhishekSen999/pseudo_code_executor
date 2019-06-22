@@ -5,27 +5,27 @@ public class TestBufferedReader {
         FileReader fr=new FileReader(args[0]);
         BufferedReader buf = new BufferedReader(fr);
         String line="";
-        char ch;
         int count=0;
-        do
+        while(true)
         {
             try
             {
 
 
-                //line=buf.readLine();
-                ch=(char)fr.read();
+                line=buf.readLine();
+
+
             }
-            catch(EOFException e )
+            catch(Exception e )
             {
-                System.out.println("exception caught");
+                e.printStackTrace();
                 break;
 
 
             }
-            System.out.println("line number "+ count+"  is :- "+ch);
+            if(line==null) break;
+            System.out.println("line number "+ count+"  is :- "+line);
             count++;
-        }while(line!=null);
+        }
     }
 }
-gi

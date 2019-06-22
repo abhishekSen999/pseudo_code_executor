@@ -37,10 +37,11 @@ public class ReadFile {
     so even though we will only read "maxNumberOfLines"  from the file that might result into more lines, in that case extra lines would be stored in bufferLines arraylist
 
      */
-    int read()//reads "maxNumberOfLines" lines at a time
+    public int read()//reads "maxNumberOfLines" lines at a time
     {
         BufferedReader buf = new BufferedReader(fr);
         int codeIterator=0,bufferIterator=0;
+        String line;//each line in file
 
         while(!this.bufferLines.isEmpty() && codeIterator<this.maxNumberOfLines ) // if buffer is nonempty then copying it into code[]
         {
@@ -48,6 +49,37 @@ public class ReadFile {
             this.bufferLines.remove(0);
         }
 
+        while(true)
+        {
+            try
+            {
 
+
+                line=buf.readLine();
+
+
+            }
+            catch(Exception e )
+            {
+                e.printStackTrace();
+                break;
+
+
+            }
+            if(line==null) break;
+            if(codeIterator>=this.maxNumberOfLines) break;// only read stated number of lines
+            codeIterator=extractAndFill(codeIterator,line);// this functions extracts java statements and fills up code[] and returns the next index of code[] where insertion needs gto be done
+
+        }
+        return codeIterator;
     }
+    private int extractAndFill(int codeIndex,String line)
+    {
+        while(true)
+        {
+            if(1<0) break;
+        }
+        return 0;
+    }
+
 }
